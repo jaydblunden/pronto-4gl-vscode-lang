@@ -77,13 +77,17 @@
       ]
     },
     "control": {
-      "begin": "\\b(if|for|while|else)\\b(.+)",
+      "begin": "\\b(if|for|while)\\b(.+)",
       "beginCaptures": {
         "1": { "name": "keyword.control" },
         "2": {
           "patterns": [
             { "include": "#condition-unscoped" },
             { "include": "#condition-scoped" }
+            {
+              "name": "",
+              "match": "\\b(else)\\b"
+            }
           ]
         }
       },
