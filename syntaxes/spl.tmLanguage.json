@@ -77,7 +77,7 @@
       ]
     },
     "control": {
-      "begin": "\\b(if|for|while)\\b(.+)",
+      "begin": "\\b(if|for|while|else)\\b(.+)",
       "beginCaptures": {
         "1": { "name": "keyword.control" },
         "2": {
