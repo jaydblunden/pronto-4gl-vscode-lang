@@ -44,7 +44,7 @@
         },
         {
           "name": "support.function",
-          "match": "\\b(get|update|insert)\\b\\s+"
+          "match": "\\b(get|update|insert|extract)\\b\\s+"
         }
       ]
     },
